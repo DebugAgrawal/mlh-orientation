@@ -26,8 +26,6 @@
         padding: 20px;
         z-index: 1;
         position: relative;
-        
-        @include grayscale_element(100%);
     }
     
     .profile-picture {
