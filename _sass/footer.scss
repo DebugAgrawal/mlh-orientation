@@ -1,11 +1,9 @@
 .footer{
     width: 100%;
-    right:0;
-    bottom: 100%;
-    padding: 15px;
+    padding: 12px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     background-color: #1C539F;
     position: relative;
@@ -17,14 +15,12 @@
     }
 }
 
-.footer .container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    margin-left: 100px;        
+.footer .container{  
+    overflow-wrap: initial;
     img{
         max-width:30px;
+    }
+    a{
+        margin-left: 10px;
     }
 }
