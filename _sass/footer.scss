@@ -1,12 +1,12 @@
 .footer{
-    width: 100%;
-    padding: 12px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
     background-color: #1C539F;
     position: relative;
+    padding: 6px;
+    margin-top: 10px;
     font-family: "Open Sans", serif;
     font-weight: 500 !important;
     color: black;
@@ -14,9 +14,8 @@
         max-width:100px;
     }
 }
-
-.footer .container{  
-    overflow-wrap: initial;
+.footer .social{  
+display: inline-block;
     img{
         max-width:30px;
     }
