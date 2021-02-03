@@ -1,8 +1,30 @@
 .footer{
     width: 100%;
+    right:0;
     bottom: 100%;
-    padding: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     background-color: #1C539F;
-    margin-bottom: -10px;
     position: relative;
+    font-family: "Open Sans", serif;
+    font-weight: 500 !important;
+    color: black;
+    img{
+        max-width:100px;
+    }
+}
+
+.footer .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 100px;        
+    img{
+        max-width:30px;
+    }
 }
